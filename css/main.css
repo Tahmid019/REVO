@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
-/* variables */
 :root{
     --fros-blue-color: #0050d5;
     --light-blue-color: #16c5ff;
@@ -13,7 +12,7 @@
     --box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.2)!important;
 }
 
-/* some resets */
+
 *{
     padding: 0;
     margin: 0;
@@ -52,7 +51,7 @@ a{
     color: var(--light-color);
 }
 
-/* button */
+
 .btn, button{
     border: none;
     cursor: pointer;
@@ -213,7 +212,7 @@ button[class ^= navbar]:hover{
     transition: var(--transition);
     z-index: 1000;
 }
-/* navbar show class */
+
 .navbar-show{
     -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
@@ -270,7 +269,6 @@ button[class ^= navbar]:hover{
     padding: 0 1.5rem;
 }
 
-/* header inner */
 .header-inner{
     padding-top: 16rem;
 }
@@ -462,7 +460,6 @@ button[class ^= navbar]:hover{
             justify-content: center;
 }
 
-/* doctors panel */
 .doc-panel-inner{
     margin-top: 8rem;
 }
@@ -1004,7 +1001,6 @@ button[class ^= navbar]:hover{
     }
 }
 
-/* transition and animation stopper */
 .resize-animation-stopper *{
     -webkit-animation: none!important;
             animation: none!important;
